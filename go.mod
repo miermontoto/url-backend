@@ -1,6 +1,7 @@
 module github.com/miermontoto/url
 
 go 1.21.0
+toolchain go1.24.1
 
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible
@@ -8,5 +9,5 @@ require (
 	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.10.9
 	github.com/mattn/go-sqlite3 v1.14.22
-	golang.org/x/crypto v0.26.0
+	golang.org/x/crypto v0.35.0
 )
